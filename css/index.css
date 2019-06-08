@@ -144,3 +144,12 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lambda {
+    margin-bottom: 20px;
+}
