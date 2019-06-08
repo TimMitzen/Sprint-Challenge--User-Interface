@@ -129,6 +129,8 @@ p {
 footer {
     width: 100%;
     background: black;
+    
+
 }
 
 footer nav {
@@ -166,25 +168,110 @@ a {
 
 .top-left{
     margin-top: 10px;
-    border: 1px solid red;
-    width: 50%; 
+    
+    width: 47%; 
+   
 }
 
 .top-right {
     margin-top: 10px;
-    border: 1px solid red;
+    
     width: 50%;
 }
 
 .bottom-left {
     margin-top: 10px;
-    border: 1px solid red;
-    width: 50%;
+    
+    width: 47%;
 }
 
-.bottom-right{
+.bottom-right {
     margin-top: 10px;
-    border: 1px solid red;
+    
     width: 50%;
 }
 
+.middle-blocks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.before-footer {
+    margin: 50px 0px 50px 10px;
+    
+}
+
+.sub-header{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+button {
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    font-size: 1.3em;
+    border-radius: 10px;
+}
+
+  #box1  {
+    background-color: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background: cadetblue;
+}
+
+#box4 {
+    background: coral;
+    -webkit-animation: color;
+    -webkit-animation-duration: 10s;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+    -webkit-animation: color1;
+    -webkit-animation-duration: 10s; 
+
+
+}
+
+#box10{
+    background: dodgerblue;
+}
+
+@keyframes color {
+    from{background: coral;}
+    to{background: green;}
+}
+
+@-webkit-keyframes color{
+    from{background: coral;}
+    to{background: red;}
+}
+
+@keyframes color1 {
+    from{background: indigo;}
+    to{background: cornsilk;}
+}
